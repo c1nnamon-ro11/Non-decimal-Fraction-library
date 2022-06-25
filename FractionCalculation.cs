@@ -1,7 +1,9 @@
 ﻿namespace Fractions
 {
-    // Class for calculation 
-    // Supports four main operations
+    /// <summary>
+    /// Class for calculation 
+    /// Supports four main operations
+    /// </summary>
     public static class FractionCalculation
     {
         /// <summary>
@@ -53,7 +55,7 @@
         /// <param name="secondFraction">Second fraction</param>
         /// <param name="simplifyResult">Flag for simplifiong result of improper fraction</param>
         /// <returns>Fraction as result of adding</returns>
-        public static Fraction AddFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = false)
+        public static Fraction AddFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = true)
         {
             Fraction resultOfCalculation = new Fraction();
             resultOfCalculation.Denominator = GetCommonDedominator(firstFraction.Denominator, secondFraction.Denominator);
@@ -70,7 +72,7 @@
         /// <param name="secondFraction">Second fraction</param>
         /// <param name="simplifyResult">Flag for simplifiong result of improper fraction</param>
         /// <returns>Fraction as result of substraction</returns>
-        public static Fraction SubstactFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = false)
+        public static Fraction SubstactFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = true)
         {
             Fraction resultOfCalculation = new Fraction();
             resultOfCalculation.Denominator = GetCommonDedominator(firstFraction.Denominator, secondFraction.Denominator);
@@ -87,7 +89,7 @@
         /// <param name="secondFraction">Second fraction</param>
         /// <param name="simplifyResult">Flag for simplifiong result of improper fraction</param>
         /// <returns>Fraction as result of multiplication</returns>
-        public static Fraction MultiplyFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = false)
+        public static Fraction MultiplyFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = true)
         {
             Fraction resultOfCalculation = new Fraction();
             resultOfCalculation.Denominator = firstFraction.Denominator * secondFraction.Denominator;
@@ -103,7 +105,7 @@
         /// <param name="secondFraction">Second fraction</param>
         /// <param name="simplifyResult">Flag for simplifiong result of improper fraction</param>
         /// <returns>Fraction as result of dividing</returns>
-        public static Fraction DivideFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = false)
+        public static Fraction DivideFractions(Fraction firstFraction, Fraction secondFraction, bool simplifyResult = true)
         {
             Fraction resultOfCalculation = new Fraction();
             resultOfCalculation.Denominator = firstFraction.Denominator * secondFraction.Numerator;

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Non-decimalFractionHelper</AssemblyName>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>c1nnamon-ro11</Authors>
     <Product>FractionHelper</Product>
     <Description>Library for work with non-decimal fractions. Supports four main operation.</Description>
@@ -11,6 +11,7 @@
     <RepositoryUrl>https://github.com/c1nnamon-ro11/Non-decimal-Fraction-library/tree/master</RepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
 </Project>

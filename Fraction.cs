@@ -2,12 +2,19 @@
 
 namespace Fractions
 {
-    // Class for fraction representation
+    /// <summary>
+    /// Class for fraction representation
+    /// </summary>
     public class Fraction
     {
-        // Fraction properties
-        public long Numerator { get; set; }      // Fraction numerator (signed)
-        public long Denominator { get; set; }    // Fraction denominator (signed)
+        /// <summary>
+        /// Fraction numerator (signed)
+        /// </summary>
+        public long Numerator { get; set; }
+        /// <summary>
+        /// Fraction denominator (signed)
+        /// </summary>
+        public long Denominator { get; set; }  
 
         // Fraction constructors
         /// <summary>
@@ -34,7 +41,7 @@ namespace Fractions
         /// <summary>
         /// Fraction constructor with string as parameter
         /// </summary>
-        /// <param name="number"></param>
+        /// <param name="fractionString"></param>
         /// <exception cref="DivideByZeroException">Throws if denominator equals zero</exception>
         public Fraction(string fractionString)
         {
@@ -115,7 +122,7 @@ namespace Fractions
         /// <summary>
         /// Converting fraction to string representation as mixed number
         /// </summary>
-        public string PrintMixedNumber()
+        public string ConvertFractionToMixedNumber()
         {
             // Save values for printing
             long numerator = Numerator;
