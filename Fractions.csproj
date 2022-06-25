@@ -8,6 +8,9 @@
     <Product>FractionHelper</Product>
     <Description>Library for work with non-decimal fractions. Supports four main operation.</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/c1nnamon-ro11/Non-decimal-Fraction-library/tree/master</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
