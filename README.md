@@ -18,7 +18,7 @@ Examples of using:
 ![image](https://user-images.githubusercontent.com/71972963/175810660-2116988f-caac-4e9d-b698-1c7568409336.png)
 
 ***Notice:***
-1) Class Fraction contains 3 constructors. For creating new fraction: put numerator and denominator as integer numbers, or put string with '/', as at example. If uoy put no any data, fraction '1/1' will bew created.
+1) Class Fraction contains 3 constructors. For creating new fraction: put numerator and denominator as integer numbers, or put string with '/', as at example. If you put no any data, fraction '1/1' will bew created.
 2) If fraction denominator equals zero - **DivideByZeroException** will be thrown.
 3) If fraction numerator equals zero - fraction denominator will be converted to '1' - fraction still exists.
 4) Converting fraction to mixed number doesn't change fraction - it converting copied data.
